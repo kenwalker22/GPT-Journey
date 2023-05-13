@@ -20,7 +20,8 @@ for page_num in range(numPages):
     clean_text = clean_text.replace('\n', ' ')
 
 
-    # Print the clean text
+    # Print the clean text ok
+    
     print(clean_text)
 
 #name mp3 file whatever you would like

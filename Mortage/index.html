@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mortgage Calculator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Mortgage Calculator</h1>
+  <p>Use the calculator below to find out how much you can afford.</p>
+  
+  <form id="mortgageForm">
+    <div class="form-group">
+      <label for="loanPurpose">Loan Purpose</label>
+      <input type="checkbox" id="loanPurpose">
+    </div>
+    
+    <div class="form-group">
+      <label for="firstTimeHomeOwner">First Time Home Owner(s)</label>
+      <input type="checkbox" id="firstTimeHomeOwner">
+    </div>
+    
+    <div class="form-group">
+      <label for="jointMortgage">Joint Mortgage</label>
+      <input type="checkbox" id="jointMortgage">
+    </div>
+    
+    <div class="form-group">
+      <label for="grossIncome">Gross Monthly Income</label>
+      <input type="number" id="grossIncome">
+    </div>
+    
+    <div class="form-group">
+      <label for="partnerGrossIncome">Gross Monthly Income (Partner)</label>
+      <input type="number" id="partnerGrossIncome">
+    </div>
+    
+    <div class="form-group">
+      <label for="age">Age</label>
+      <input type="number" id="age">
+    </div>
+    
+    <div class="form-group">
+      <label for="partnerAge">Partner's Age</label>
+      <input type="number" id="partnerAge">
+    </div>
+    
+    <button type="button" onclick="calculateAffordability()">Calculate</button>
+  </form>
+  
+  <div id="result"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

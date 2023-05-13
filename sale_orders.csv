@@ -1,0 +1,2 @@
+id,name,user_id,pricelist_id,date_order,validity_date,payment_term_id,fiscal_position_id,invoice_status,invoice_ids,amount_untaxed,amount_tax,amount_total
+1,S00001,False,"[1, 'Public Pricelist (TTD)']",2023-03-02 16:14:51,False,"[1, 'Immediate Payment']",False,no,[],0.0,0.0,0.0
